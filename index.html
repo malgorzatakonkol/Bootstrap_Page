@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap_Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-brown text-white fixed-top">
+            <div class="container">
+                <span class="navbar-brand mb-0 h1">Bootstrap</span>
+                <button class="navbar-toggler" data-menu-button data-menu type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto d-none d-lg-flex">
+                        <li class="nav-item"><a href="#" class="nav-link uppercase">Strona główna</a></li>
+                        <li class="nav-item"><a href="#my-section-mission" class="nav-link uppercase">Czym się zajmujemy?</a></li>
+                        <li class="nav-item"><a href="#my-section-team" class="nav-link uppercase">Nasz zespół</a></li>
+                        <li class="nav-item"><a href="#my-section-contant" class="nav-link uppercase">Kontakt</a></li>
+                    </ul>
+                    <form class="form-inline">
+                        <button class="btn bg-blue"><i class="fas fa-search mr-1"></i>Szukaj</button>
+                        <input class="form-control form-control-sm ml-3" type="text" placeholder="Wyszukaj" aria-label="Wyszukaj">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="d-none d-xl-none menu justify-content-center" data-quicklinks-panel="menu" id="menuMain">
+            <ul class="navbar-nav  mt-5">
+                <li class="nav-item  mb-3"><a href="#" class="nav-link uppercase">Strona główna</a></li>
+                <li class="nav-item  mb-3"><a href="#my-section-mission" class="nav-link uppercase">Czym się zajmujemy?</a></li>
+                <li class="nav-item  mb-3"><a href="#my-section-team" class="nav-link uppercase">Nasz zespół</a></li>
+                <li class="nav-item"><a href="#my-section-contant" class="nav-link uppercase">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="scrollTop d-none d-sm-block">
+            <div><span class="scrollTop-arrow fas fa-angle-up"></span></div>
+        </div>
+    </header>
+    <main>
+        <section class="my-section-jumbotron">
+            <video autoplay muted loop class="video-banner">
+                <source src="video/banner.mp4" type="video/mp4">
+            </video>
+            <div class="jumbotron jumbotron-fluid my-jumbotron d-flex align-items-center">
+                <div class="container text-center my-jumbotron-slogan">
+                    <h1 class="display-4 text-white my-4 text-uppercase my-jumbotron-text font-decor">Chcesz mieć piękny <span class="color-violet font-weight-bold">ogród</span> ?</h1>
+                    <button class="btn bg-blue btn-lg my-4">Skontaktuj się z nami!</button>
+                </div>
+            </div>
+        </section>
+        <section class="my-section-mission" id="my-section-mission">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="text-uppercase my-misssion-text">Czym się zajmujemy?</h2>
+                        <p>Ogrodami zajmujemy się od wielu lat. W tym czasie zdobyliśmy  bogate doświadczenie, które ciągle wykorzystujemy w naszej pracy. Projektowanie ogródów jest nie tylko naszym zawodem, ale też wielką pasją. Zajmowanie się Waszymi ogródkami, nawet tymi najmniejszymi, sprawia nam ogromną przyjemność. Zadowolenie klientów utwierdza nas w przekonaniu, że to, co robimy, ma sens i że robimy to dobrze.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center my-5">
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <div class="my-mission-background-icon mx-auto mb-4">
+                            <i class="fab fa-pagelines fa-fw my-mission-icon"></i>
+                        </div>
+                        <h2>Projektowanie przydomowych ogrodów</h2>
+                        <p>Dysponujemy bogatą ofertą sadzonek kwiatów i warzyw, krzewów, drzewek owocowych i iglaków. Na życzenie klienta sprowadzamy rośliny z najbardziej egzotycznych zakątków świata.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <div class="my-mission-background-icon mx-auto mb-4">
+                            <i class="fas fa-tree fa-fw my-mission-icon"></i>
+                        </div>
+                        <h2>Pielęgnacja ogrodów całorocznych</h2>
+                        <p>Założenie ogrodu to dopiero początek. Teraz wymagać będzie wiele troski by dobrze się rozwijał, cieszył oko, by trawnik nie zarastał mchem a skalniak czy wrzosowisko chwastami, by krzewy nabierały odpowiednich kształtów i nie marniały niszczone przez szkodniki czy choroby.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 text-center">
+                        <div class="my-mission-background-icon mx-auto mb-4">
+                            <i class="fas fa-drafting-compass fa-fw my-mission-icon"></i>
+                        </div>
+                        <h2>Aranżacja terenów zielonych</h2>
+                        <p>Staramy się, aby każdy, stworzony przez nas ogród, był niepowtarzalny, dostosowany do Państwa oczekiwań. Chcemy, aby zaprojektowane przez nas miejsca mogły Was cieszyć swym pięknem przez wiele lat. Stawiamy na profesjonalizm, uczciwość i rzetelność.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-section-numbers bg-beige">
+            <div class="container my-5">
+                <div class="row	justify-content-between	py-5" id="counter">
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-white text-uppercase border border-light p-4 d-flex flex-column justify-content-center">
+                        <h3 class="display-4 counter-value" data-count="200">0</h3>
+                        <h4 class="text-muted">Zrealizowanych projektów</h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-white text-uppercase border border-light p-4 d-flex flex-column justify-content-center">
+                        <h3 class="display-4 counter-value" data-count="120">100</h3>
+                        <h4 class="text-muted">Referencji od zadowolonych Klientów</h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-white text-uppercase border border-light p-4 d-flex flex-column justify-content-center">
+                        <h3 class="display-4 counter-value" data-count="100">200</h3>
+                        <h4 class="text-muted">Stałych Klientów</h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 text-center text-white text-uppercase border border-light p-4 d-flex flex-column justify-content-center">
+                        <h3 class="display-4 counter-value" data-count="3">300</h3>
+                        <h4 class="text-muted">Publikacje w dziale "Nowatorski Ogród" w <i>Ogrody Marzeń</i></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-section-portfolio">
+            <div class="container my-5">
+                <div class="text-center">
+                    <h2 class="text-uppercase my-portfolio-text">Nasze realizacje</h2>
+                    <p>Specjalizujemy się w projektowaniu i zakładaniu ogrodów oraz terenów zielonych. Poniżej przedstawiamy wybrane realizacje.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex align-items-cente">
+                        <div class="d-flex justify-content-around flex-wrap">
+                            <figure class="snip green">
+                                <img src="images/garden1.jpg" class="img-fluid" alt="Realizacja 1">
+                                <figcaption>
+                                    <h2>ogród japoński</h2>
+                                </figcaption> 
+                                <a href="#"></a>  
+                            </figure>
+                            <figure class="snip red">
+                                <img src="images/garden2.jpg" alt="Realizacja 2">
+                                <figcaption>
+                                    <h2>zieleń uliczna</h2>
+                                </figcaption> 
+                                <a href="#"></a>   
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <div class="d-flex justify-content-around flex-wrap">
+                            <figure class="snip blue">
+                                <img src="images/garden4.jpg" alt="Realizacja 4">
+                                <figcaption>
+                                    <h2>ogród zimowy</h2>
+                                </figcaption> 
+                                <a href="#"></a>
+                            </figure>
+                            <figure class="snip brown">
+                                <img src="images/garden3.jpg" alt="Realizacja 3">
+                                <figcaption>
+                                    <h2>ogród nowoczesny</h2>
+                                </figcaption> 
+                                <a href="#"></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-section-testimonial">
+            <div class="separator"></div>
+            <div class="container my-5">
+                <div class="text-center">
+                    <h2 class="text-uppercase">Opinie naszych <span class="color-violet">Klientów</span></h2>
+                </div>
+                <blockquote class="blockquote text-center">
+                    <i class="fas fa-quote-right my-4"></i>
+                    <p>Firmę cechuje profesjonalizm i odpowiedzialność w realizacji przyjętch zadań i zleceń. Zaproponowane rozwiązania i pomysły przyniosły bardzo dobry efekt i znacząco poprawiły stan i wygląd zieleni.</p>
+                    <footer class="blockquote-footer">Adam Kowalski
+                    <cite title="strona internetowa">http://forumogrodniczeoaza.pl/</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
+        <section class="my-section-price bg-beige py-4">
+            <div class="container my-5">
+                <div class="text-center">
+                    <h2 class="text-uppercase">Pakiety cenowe</h2>
+                    <p>Wybierz odpowiedni pakiet cenowy, aby Twój ogród był piękny przez cały rok</p>
+                    <button class="btn btn-light btn-lg text-uppercase my-4">Rozpocznij darmowy okres próbny</button>
+                </div>
+                <div class="row d-flex justify-content-center my-4">
+                    <div class="col-8 col-lg-4">
+                        <div class="card my-card-main mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Plus</h3>
+                                <h3 class="color-violet">19 zł</h3>
+                                <p class="card-text text-muted">za miesiąc</p>
+                                <p class="card-text">Projektowanie ogrodów przydomowych</p>
+                                <p class="card-text font-weight-bold">dla Klientów indywidualnych</p>
+                            </div>
+                            <div class="my-card-block">
+                                <ul class="list-group mb-4">
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Trawniki z rolki
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Kompleksowa pielęgnacja trawników
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Kamieniarstwo, murki
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        1 konsultacja ogrodnicza
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center my-2">
+                                <a href="#" class="btn btn-outline-violet">Wybierz plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-lg-4">
+                        <div class="card my-card-main mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Premium</h3>
+                                <h3 class="color-violet">99 zł</h3>
+                                <p class="card-text text-muted">za miesiąc</p>
+                                <p class="card-text">Projektowanie ogrodów przydomowych, wodnych</p>
+                                <p class="card-text font-weight-bold">dla Klientów indywidualnych i biznesowych</p>
+                            </div>
+                            <div class="my-card-block">
+                                <ul class="list-group mb-4">
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Trawniki z rolki lub z siewu
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Kompleksowa pielęgnacja trawników, koszenie
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Kamieniarstwo, murki, ścieżki
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        3 konsultacje ogrodnicze
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center my-2">
+                                <a href="#" class="btn btn-outline-violet">Wybierz plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-lg-4">
+                        <div class="card my-card-main mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Max</h3>
+                                <h3 class="color-violet">399 zł</h3>
+                                <p class="card-text text-muted">za miesiąc</p>
+                                <p class="card-text">Projektowanie ogrodów przydomowych, wodnych i japońskich</p>
+                                <p class="card-text font-weight-bold">dla Klientów indywidualnych i biznesowych</p>
+                            </div>
+                            <div class="my-card-block">
+                                <ul class="list-group mb-4">
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Trawniki z rolki lub z siewu, siatka przeciw kretom
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Kompleksowa pielęgnacja trawników, koszenie, wertykulacja, nawożenie
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        Kamieniarstwo, murki, ścieżki, obrzeża trawnikowe
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                        5 konsultacji ogrodniczych
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer text-center my-2">
+                                <a href="#" class="btn btn-outline-violet">Wybierz plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-section-team" id="my-section-team">
+            <div class="container my-5">
+                <div class="text-center">
+                    <h2 class="text-uppercase my-team-text">Nasz zespół</h2>
+                    <p>Lorem	ipsum	dolor	sit	amet	consectetur	adipisicing	elit.	Natus,	dignissimos.</p>
+                </div>
+                <div class="row justify-content-between mt-5">
+                    <div class="col-sm-6	col-md-3	text-center">
+                        <img class="rounded-circle my-team-img" src="images/7.jpg" alt="team1">
+                        <h3 class="mt-2">Ola Kowalska</h3>
+                        <p class="text-muted">ogrodnik</p>
+                    </div>
+                    <div class="col-sm-6	col-md-3	text-center">
+                        <img class="rounded-circle my-team-img" src="images/8.jpg" alt="team2">
+                        <h3 class="mt-2">Kuba Kowalski</h3>
+                        <p class="text-muted">ogrodnik</p>
+                    </div>
+                    <div class="col-sm-6	col-md-3	text-center">
+                        <img class="rounded-circle my-team-img" src="images/9.jpg" alt="team3">
+                        <h3 class="mt-2">Jan Kowalski</h3>
+                        <p class="text-muted">architekt ogrodu</p>
+                    </div>
+                    <div class="col-sm-6	col-md-3	text-center">
+                        <img class="rounded-circle my-team-img" src="images/10.jpg" alt="team4">
+                        <h3 class="mt-2">Krzysztof Kowalski</h3>
+                        <p class="text-muted">pracownik ogrodniczy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="separator"></div>
+        </section>
+        <section class="my-section-contant" id="my-section-contant">
+            <div class="container my-5">
+                <div class="text-center">
+                    <h2 class="text-uppercase my-contact-text">Kontakt</h2>
+                    <p>Skontaktuj się z nami wypełniając formularz kontaktowy</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="my-contact-form">
+                            <form	action="">
+                                <label	for="name"	class="form-control-label">Imię	i	nazwisko</label>
+                                <input	type="text"	id="name"	class="form-control">
+                                <label	for="email"	class="form-control-label">Adres	e-mail</label>
+                                <input	type="email"	id="email"	class="form-control">
+                                <label	for="msg-title"	class="form-control-label">Tytuł	wiadomości</label>																													<input	type="text"	id="msg-title"	class="form-control">
+                                <label	for="msg"	class="form-control-label">Treść	wiadomości</label>
+                                <textarea	class="form-control"	id="msg"	cols="30"	rows="5"></textarea>
+                                <button	class="btn bg-blue mt-4">Wyślij	wiadomość</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-none col-lg-6 d-lg-flex align-items-center">
+                        <div class="my-contact-box">
+                            <div class="my-contact-box-img">
+                                <img class="img-fluid" src="images/garden6.jpg" alt="pracownicy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="my-section-footer bg-brown text-white p-4 text-sm-center text-lg-left">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h4 class="text-uppercase my-footer-header">Najnowsze wpisy</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Wiosna - przepiękne obrazy naszych ogrodów</a></li>
+                        <li><a href="#" class="text-light">Czas na wertykulację trawnika</a></li>
+                        <li><a href="#" class="text-light">Trawnik z rolki</a></li>
+                        <li><a href="#" class="text-light">Czas zabezpieczyć ogród na zimę</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h4 class="text-uppercase my-footer-header">O nas</h4>
+                    <p>Oferujemy usługi z zakresu projektowania i pielęgnacji ogrodów przydomowych, jak również aranżacje terenów zielonych przy firmach.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h4 class="text-uppercase my-footer-header">Newsletter</h4>
+                    <div class="my-footer-form">
+                        <form	action=""	class="justify-content-center">
+                            <div	class="form-group">
+                                <input	type="email"	id="email"	class="form-control"	placeholder="Wpisz adres e-mail">
+                            </div>
+                            <button	type="submit"	class="btn bg-blue btn-sm btn-block">Zapisz się</button>
+                        </form>
+                    </div>
+                    <div class="row my-footer-social-icon d-flex flex-wrap my-4">
+                        <div	class="col-sm-4	col-md-4	col-lg-2">
+                            <a	class="color-blue"	href="#">
+                                <i	class="fab	fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div	class="col-sm-4	col-md-4	col-lg-2">
+                            <a	class="color-blue"	href="#">
+                                <i	class="fab	fa-google-plus"></i>
+                            </a>
+                        </div>
+                        <div	class="col-sm-4	col-md-4	col-lg-2">
+                            <a	class="color-blue"	href="#">
+                                <i	class="fab	fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div	class="col-sm-4	col-md-4	col-lg-2">
+                            <a	class="color-blue"	href="#">
+                                <i	class="fab	fa-github"></i>
+                            </a>
+                        </div>
+                        <div	class="col-sm-4	col-md-4	col-lg-2">
+                            <a	class="color-blue"	href="#">
+                                <i	class="fab	fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div	class="col-sm-4	col-md-4	col-lg-2">
+                            <a	class="color-blue"	href="#">
+                                <i	class="fab	fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div	class="col-md-6	col-lg-3	d-flex	flex-column">
+                    <h4	class="text-uppercase	my-footer-header">Kontakt</h4>
+                    <ul	class="list-unstyled">
+                        <li>
+                            <i	class="fas	fa-envelope	mr-3"></i>
+                            <a href="mailto:">kontakt@kontakt.pl</a>
+                        </li>
+                        <li>
+                            <i	class="fas	fa-map-marker-alt	mr-3"></i>
+                            ul.	Mickiewicza	Warszawa
+                        </li>
+                        <li>
+                            <i	class="fas	fa-phone	mr-3"></i>
+                            <a href="tel:">123-456-789</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div	class="row	text-center	border	border-green	border-left-0	border-right-0">
+                <div	class="col">
+                    <p class="my-2">2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
