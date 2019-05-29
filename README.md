@@ -5,7 +5,7 @@ Garden services page.
 Website with Bootstrap
 
 ### Link to the repository:
-https://malgorzatakonkol.github.io/Kite_Control/#/
+https://malgorzatakonkol.github.io/Bootstrap_Page/#/
 
 ### Technologies used:
 * HTML
